@@ -1,0 +1,340 @@
+/*REGOLE GENERALI*/
+.center-cont {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*REGOLE HEADER*/
+header .navbar {
+margin-bottom: 0;
+}
+
+header .navbar.navbar-default {
+  background-color: white;
+  border: none;
+  font-family: helvetica;
+}
+
+header .navbar-default .navbar-nav>li>a {
+    color: #031B4E;
+    font-weight: 600;
+}
+
+header .btn.btn-default {
+  margin-top: 7px;
+  border-color: #0069FF;
+  font-size: 16px;
+  color: #0069FF;
+}
+
+header hr {
+    margin: 0;
+    border: 1px solid #eee;
+}
+
+header .nav-menu-padding {
+  padding: 25px 0;
+}
+
+#logo {
+  width: 270px;
+  padding-left: 15px;
+  padding-right: 35px;
+}
+
+.nav-top-text {
+  font-size: 13px;
+}
+
+.nav-menu-text {
+  font-size: 16px;
+}
+
+.padding {
+  padding: 30px 0;
+}
+
+/*SEZIONE WELCOME*/
+.welcome-style {
+  background-image: url("img/dg-background.jpg");
+  background-size: cover;
+  font-family: verdana;
+  padding: 5% 0;
+}
+
+.welcome-style h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: white;
+}
+
+.welcome-style p {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 4%;
+}
+
+.signup-box {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.signup-box .input-group .form-control {
+  height: 55px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.signup-box .btn-default {
+  width: 100%;
+  text-align: center;
+  background-color: #15CD72;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: 0;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.signup-box h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #031B4E;
+  padding: 20px 0;
+}
+
+.signup-box p {
+  color: #031B4E;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+/*SEZIONE LOGO-LIST*/
+.logo-list-style {
+  background-color: #F3F5F9;
+  font-family: verdana;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.logo-list-style img {
+  height: 95px;
+}
+
+.logo-list-style h2 {
+  text-transform: uppercase;
+  color: #939EB5;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 5%;
+}
+
+.logo-list-style p {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 4%;
+}
+
+/*SEZIONE DEPLOY*/
+.deploy-style {
+  background-color: white;
+  font-family: verdana;
+  padding-bottom: 5%;
+}
+
+.deploy-style ul {
+  padding: 20px 10px;
+
+}
+
+.deploy-style li {
+  list-style-type: none;
+  font-family: verdana;
+  padding-bottom: 35px;
+}
+
+.deploy-style a {
+  color: #031B4E;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.deploy-style h3 {
+  color: #031B4E;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.deploy-style p {
+  color: #4B5C81;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 2% 0;
+}
+
+.deploy-style .deploy-subtitle {
+  color: #4B5C81;
+  font-size: 23px;
+  font-weight: 400;
+  padding-bottom: 3%;
+}
+
+/*SEZIONE DESIGNED e DEVELOPMENT*/
+.des-e-dev-style {
+  background-color: #F3F5F9;
+  font-family: verdana;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.des-e-dev-style h2,
+.business-style h2,
+.deploy-style h2 {
+  color: #031B4E;
+  font-size: 38px;
+  font-weight: 600;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.des-e-dev-style p {
+  color: #4B5C81;
+  font-size: 23px;
+  font-weight: 400;
+  padding-bottom: 3%;
+}
+
+#rockerbox {
+  width: 900px;
+}
+
+/*SEZIONE BUSINESS*/
+.business-style {
+  background-color: white;
+  font-family: verdana;
+  padding-bottom: 5%;
+}
+
+.business-style img {
+  margin-top: 30px;
+}
+
+.business-style h3 {
+  color: #031B4E;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.business-style p {
+  color: #4B5C81;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 2% 0;
+}
+
+/*SEZIONE AROUND THE WORLD*/
+.around-style {
+  background-color: #031B4E;
+  background-image: url("img/datacenter2.png");
+  background-size: cover;
+  font-family: verdana;
+  padding: 5% 0;
+}
+
+.around-style h2 {
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 4%;
+}
+
+.around-style .table>tbody>tr>td {
+  border-top: 0;
+  border-bottom: 1px solid #9AA4B8;
+  font-size: 14px;
+  padding: 15px 12px;
+}
+
+.around-style .table>tbody>tr>td:first-child {
+  color: white;
+  font-weight: 600;
+}
+
+.around-style .table>tbody>tr>td>a {
+  color: #00D7D2;
+}
+
+.nation {
+  color: #d5d5d5;
+}
+
+/* SEZIONE "GET STARTED" */
+.get-style {
+  background-image: url("img/dg-background.jpg");
+  background-size: cover;
+  font-family: verdana;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.get-style h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.get-style .btn-default {
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0069FF;
+  border: 0;
+  height: 55px;
+}
+
+/*FOOTER*/
+.footer-style {
+  font-family: verdana;
+  background-color: #010E28;
+  padding: 5% 2%;
+}
+
+.footer-style p {
+  font-size: 16px;
+  padding-top: 12px;
+  color: #d5d5d5;
+}
+
+.footer-style h3 {
+  font-size: 20px;
+  padding-top: 12px;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 0;
+  padding: 4% 0 3% 0;
+}
+
+.footer-style ul {
+  padding: 0;
+}
+
+.footer-style li {
+  list-style-type: none;
+  font-family: verdana;
+  line-height: 2;
+}
+
+.footer-style a {
+  color: #d5d5d5;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
