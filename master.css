@@ -140,7 +140,7 @@ header .nav-menu-padding {
   padding-top: 4%;
 }
 
-/* SEZIONE LOGO-LIST CON FLEX-BOX */
+/* LOGO-LIST CON FLEX-BOX */
 .flex_container {
   display: flex;
   align-items: center;
@@ -349,4 +349,11 @@ header .nav-menu-padding {
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
+}
+
+/*FOOTER CON FLEX-BOX*/
+.flex_footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
