@@ -123,7 +123,7 @@ header .nav-menu-padding {
 }
 
 .logo-list-style img {
-  height: 95px;
+  width: 150px;
 }
 
 .logo-list-style h2 {
@@ -139,6 +139,18 @@ header .nav-menu-padding {
   margin: 0;
   padding-top: 4%;
 }
+
+/* SEZIONE LOGO-LIST CON FLEX-BOX */
+.flex_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
 
 /*SEZIONE DEPLOY*/
 .deploy-style {
